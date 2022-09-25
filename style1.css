@@ -1,0 +1,181 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    
+}
+a, img{
+    display: block;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.container{
+    /* 1st */
+    /* padding: 0 100px; */
+    /* 2nd */
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.header-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+}
+h3{
+color: #01996D;
+font-weight: 900;
+font-size: 25px;
+}
+header{
+    color: white;
+    padding: 30px 0;
+}
+.header-logo{
+    margin-right: 120px;
+}
+.one{
+font-size: 19px;
+color: black;
+font-family: 'Calibri';
+margin-right: 70px;   
+}
+.one:last-child{
+    margin-right: 0;
+}
+.header-btns{
+    display: flex;
+    align-items: center;
+}
+button{
+border: none;
+padding: 15px 35px;
+background: #01996D;
+margin-left: 30px;
+cursor: pointer;
+color: white;
+}
+.two{
+background-image: url("img/BG.png");
+background-repeat: no-repeat;
+background-size: cover;
+padding-bottom: 120px;
+padding-top: 120px;
+}
+h2{
+font-size: 50px;
+color:#01996D
+}
+.four{
+width: 350px;
+}
+.two button{
+    margin-left: 0;
+}
+.vidio{
+background-color: #245852;
+}
+.vidioflex{
+display: flex;
+align-items: center;
+}
+.vidio-title{
+margin-bottom: 40px;
+font-family: Georgia;
+font-size: 42px;
+font-weight: 800;
+color: #FFFFFF;
+}
+.vidioright{
+margin-top: 150px;
+margin-bottom: 150px;
+}
+.vidioright img{
+width: 600px;
+}
+.vidio-subtitle{
+color: #FFFFFF;
+margin-bottom: 30px;
+}
+button{
+border: none;
+padding: 15px 37px;
+background-color: #01996D;
+margin: 30px 0;
+color: #FFFFFF;
+cursor: pointer;
+}
+.tips{
+    min-height: 800px;
+}
+.tips-abs-num{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 600;
+    font-size: 80px;
+    letter-spacing: 0.7rem;
+    line-height: 150%;
+    color: rgba(1, 153, 109, 0.2);
+}
+.tips-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.tips-title-main{
+    max-width: 250px;
+}
+.tips-element{
+    position: relative;
+    padding: 55px 0;
+    
+}
+.tips-element-2{
+    top: 200px;
+}
+.tips-title-main{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    color: #000000;
+    text-align: center;
+}
+.tips-bottom img{
+    width: 250px;
+}
+.tips-desc{
+    max-width: 250px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #424242;
+    margin: 15px 0;
+}
+.tips-element-3 .tips-abs-num{
+letter-spacing: 0.7rem;
+}
+footer{
+    background-color: grey;
+}
+.footer-wrapper{
+    width: 100%;
+    max-width: 1110px;
+    padding: 20px;
+    background-color: grey;
+}
+.footer-link2{
+font-size: 22px;
+font-weight: 800;
+font-family: Georgia;
+}
+.footer-link{
+font-family: Georgia;
+font-weight: 600;
+}
